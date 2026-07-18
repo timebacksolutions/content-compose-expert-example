@@ -15,3 +15,5 @@ links:
   type: satisfies
 - target: "conventions:SR-0018"
   type: satisfies
+- target: "conventions:SR-0019"
+  type: satisfies
