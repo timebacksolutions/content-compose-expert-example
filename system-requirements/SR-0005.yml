@@ -1,0 +1,15 @@
+uid: SR-0005
+type: system_requirement
+status: approved
+title: Set out the exceptions, limits and specialist detail, not only the general rule
+text: 'The briefing sets out the exceptions, thresholds and edge cases that a specialist
+  needs, and states what it does not cover, rather than giving only the general rule.'
+links:
+- target: UR-0001
+  type: implements
+- target: "purpose:SR-0003"
+  type: satisfies
+- target: "purpose:SR-0004"
+  type: satisfies
+- target: "audience:SR-0005"
+  type: satisfies

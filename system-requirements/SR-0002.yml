@@ -1,0 +1,14 @@
+uid: SR-0002
+type: system_requirement
+status: approved
+title: Use exact legal terminology and statutory citations without glossing them
+text: 'The briefing uses precise legal terms and names the statutory provisions and
+  grounds for possession in the field''s standard form, without glossing them for a
+  non-specialist.'
+links:
+- target: UR-0001
+  type: implements
+- target: "audience:SR-0002"
+  type: satisfies
+- target: "audience:SR-0003"
+  type: satisfies

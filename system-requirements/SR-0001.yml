@@ -1,0 +1,16 @@
+uid: SR-0001
+type: system_requirement
+status: approved
+title: Open on the legal position, assuming the statutory framework is known
+text: 'The briefing opens by stating the legal position it establishes and leads with the
+  conclusion before the reasoning, assuming the reader already holds the statutory
+  framework rather than restating it.'
+links:
+- target: UR-0001
+  type: implements
+- target: "plain:SR-0004"
+  type: satisfies
+- target: "audience:SR-0007"
+  type: satisfies
+- target: "audience:SR-0008"
+  type: satisfies

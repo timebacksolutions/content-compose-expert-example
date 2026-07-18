@@ -1,0 +1,13 @@
+uid: SR-0003
+type: system_requirement
+status: approved
+title: Assert only what statute or case law substantiates, and attribute each proposition
+text: 'The briefing states only propositions it can substantiate, and attributes each one
+  to the statute or authority it rests on so the reader can verify it.'
+links:
+- target: UR-0001
+  type: implements
+- target: "purpose:SR-0001"
+  type: satisfies
+- target: "purpose:SR-0007"
+  type: satisfies

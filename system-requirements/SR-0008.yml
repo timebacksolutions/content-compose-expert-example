@@ -1,0 +1,15 @@
+uid: SR-0008
+type: system_requirement
+status: approved
+title: Use sentence case headings and GOV.UK number and date style
+text: 'Headings use sentence case, and amounts and dates follow the GOV.UK format, for
+  example "arrears of 1,240.00 as at 1 July 2026".'
+links:
+- target: UR-0001
+  type: implements
+- target: "conventions:SR-0008"
+  type: satisfies
+- target: "conventions:SR-0011"
+  type: satisfies
+- target: "conventions:SR-0012"
+  type: satisfies

@@ -1,0 +1,13 @@
+uid: SR-0007
+type: system_requirement
+status: approved
+title: Write the briefing in the council's formal register
+text: 'The briefing writes auxiliaries and negatives in full and states the legal position
+  plainly without coaxing, so it reads in the council''s formal register.'
+links:
+- target: UR-0001
+  type: implements
+- target: "tone:SR-0001"
+  type: satisfies
+- target: "tone:SR-0007"
+  type: satisfies

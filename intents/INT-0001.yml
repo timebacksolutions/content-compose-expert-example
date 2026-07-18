@@ -1,0 +1,14 @@
+uid: INT-0001
+type: intent
+status: approved
+title: A housing lawyer can rely on a briefing on the statutory arrears and possession position
+text: 'The council publishes an internal briefing that sets out the statutory position on
+  rent arrears and possession for its housing lawyers. The reader must be able to rely on
+  it as an accurate statement of the law, the briefing must follow the council''s
+  British-English house style, it must read in the council''s formal register, it must do
+  its job of informing rather than instructing, and it must be pitched at an expert who
+  has full command of housing law. Being readable, being correctly styled, being in the
+  right register, serving the right purpose and being pitched at the right reader are
+  independent goals, so the briefing adopts a readability standard, a conventions
+  standard, a tone standard, a purpose standard and an audience standard.'
+normative: false

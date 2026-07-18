@@ -1,0 +1,13 @@
+uid: SR-0006
+type: system_requirement
+status: approved
+title: State the date the law is current to and flag pending reform
+text: 'The briefing states the date the law is current to, and flags where a provision is
+  under pending reform and when it is next to be reviewed.'
+links:
+- target: UR-0001
+  type: implements
+- target: "purpose:SR-0009"
+  type: satisfies
+- target: "purpose:SR-0010"
+  type: satisfies

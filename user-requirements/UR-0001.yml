@@ -1,0 +1,10 @@
+uid: UR-0001
+type: user_requirement
+status: approved
+title: Publish an arrears and possession briefing a housing lawyer can rely on
+text: 'Publish an internal briefing that a housing lawyer can rely on as an accurate
+  statement of the statutory position on rent arrears and possession, written to the
+  council house style.'
+links:
+- target: INT-0001
+  type: derives_from
