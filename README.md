@@ -1,7 +1,7 @@
 # content-compose-expert-example
 
 A third worked example of a **composed content project** built with
-[throughline-compose](https://github.com/timebacksolutions/throughline-compose) — the
+[throughline-compose](https://github.com/rhodium-org/throughline-compose) — the
 **expert-and-formal** member of the trio, alongside
 [content-compose-example](https://github.com/timebacksolutions/content-compose-example)
 (general-and-formal) and
@@ -21,11 +21,11 @@ and cites their clauses side by side on the requirements they satisfy:
 
 | Namespace | Source | Axis |
 |---|---|---|
-| `plain` | [throughline-plain-language](https://github.com/timebacksolutions/throughline-plain-language) `@v2026-07` | readability |
-| `conventions` | [throughline-conventions-uk](https://github.com/timebacksolutions/throughline-conventions-uk) `@v2026-07` | British-English conventions |
-| `tone` | [throughline-tone-formal](https://github.com/timebacksolutions/throughline-tone-formal) `@v2026-07` | register (formal) |
-| `purpose` | [throughline-purpose-inform](https://github.com/timebacksolutions/throughline-purpose-inform) `@v2026-07` | purpose (inform) |
-| `audience` | [throughline-audience-expert](https://github.com/timebacksolutions/throughline-audience-expert) `@v2026-07` | audience (expert) |
+| `plain` | [throughline-plain-language](https://github.com/rhodium-org/throughline-plain-language) `@v2026-07` | readability |
+| `conventions` | [throughline-conventions-uk](https://github.com/rhodium-org/throughline-conventions-uk) `@v2026-07` | British-English conventions |
+| `tone` | [throughline-tone-formal](https://github.com/rhodium-org/throughline-tone-formal) `@v2026-07` | register (formal) |
+| `purpose` | [throughline-purpose-inform](https://github.com/rhodium-org/throughline-purpose-inform) `@v2026-07` | purpose (inform) |
+| `audience` | [throughline-audience-expert](https://github.com/rhodium-org/throughline-audience-expert) `@v2026-07` | audience (expert) |
 
 ## The sibling-swap payoff, across the trio
 
