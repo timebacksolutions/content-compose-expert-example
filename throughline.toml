@@ -1,6 +1,6 @@
 [project]
 name = "Arrears and possession briefing (content-compose expert example)"
-format_version = 2
+format_version = 3
 
 # A third worked example of a *composed* content project — the expert-and-formal
 # counterpart to `content-compose-example` (general-and-formal) and
@@ -111,3 +111,14 @@ implemented = ["verified", "suspect", "rejected", "deleted"]
 verified    = ["implemented", "suspect", "deleted"]
 suspect     = ["approved", "ratified", "implemented", "verified", "rejected", "deleted"]
 rejected    = ["draft", "deleted"]
+
+# Semantic status roles (SR-0131): which declared status
+# plays each role the tool's operations act on. Backfilled by
+# `tl migrate`; edit to match your own status vocabulary.
+[status.roles]
+initial = "draft"
+proposed = "proposed"
+ratified = "ratified"
+invalidated = "rejected"
+suspect = "suspect"
+tombstone = "deleted"
