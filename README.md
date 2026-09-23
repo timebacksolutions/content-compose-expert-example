@@ -1,7 +1,7 @@
 # content-compose-expert-example
 
 A third worked example of a **composed content project** built with
-[throughline-compose](https://github.com/rhodium-org/throughline-compose) — the
+[throughline](https://pypi.org/project/throughline/) 3.11.0 or later — the
 **expert-and-formal** member of the trio, alongside
 [content-compose-example](https://github.com/timebacksolutions/content-compose-example)
 (general-and-formal) and
@@ -87,10 +87,11 @@ the sentence-case headings with GOV.UK number and date style ("£1,240", "1 July
 ## Running it
 
 ```sh
-tl-compose check --strict     # fetches all five pinned sources, merges, validates
-tl-compose trace SR-0002      # show a requirement's throughline across the axes
+pip install 'throughline>=3.11.0'
+tl check --strict   # fetches all five pinned sources, merges, validates
+tl trace SR-0002    # show a requirement's throughline across the axes
 ```
 
-Drive this project with `tl-compose`, never bare `tl`: bare `tl` fails fast the moment
-it meets a namespace-qualified reference (`audience:SR-0003`) it cannot resolve, because
-only the composition-aware tool fetches and merges the sources.
+`tl` composes the declared sources itself, so `check`, `trace` and the other reads answer
+over the union and a namespace-qualified reference (`audience:SR-0003`) resolves. A `tl` older
+than 3.11.0 reports it as `namespace-unresolved`.
